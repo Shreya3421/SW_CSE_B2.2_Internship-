@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreya S M | Portfolio</title>
+<style>
+
+
+  section {
+    padding: 40px;
+    margin: 10px;
+  }
+
+  #about {
+    background-color: #4ac8ee;
+  }
+
+  h1 {
+    color: #0c0d0e;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  h2 {
+    color: #060110;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  p {
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .skills-list li {
+    background-color: #76b0dd;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .project-link {
+    display: inline-block;
+    background-color: #5cb7d6;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 45px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .contact-box {
+    background-color: #f0f8ff;
+    border: 2px solid #4eb8b8;
+    padding: 15px;
+    margin: 10px auto;
+    width: 300px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .contact-box span {
+    font-weight: bold;
+    color: #53bccc;
+  }
+  nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  body{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 20px;
+    border: 5px solid #030b0b ;
+    box-sizing: border-box;
+  }
+</style>
+
+
+
+</head>
+<body style="text-align:center">
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h1>I'm Shreya S M 👋</h1>
+    <p>I am second year student at MSRUAS</p>
+    <p>I am passionate about learning web development</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li><br>
+      <li>CSS</li><br>
+      <li>JavaScript</li><br>
+      <li>React</li><br>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <a style="font-size: 30px; font-family: 'Courier New', Courier, monospace;" href="#" class="project-card" target="_blank">Project 1</a>
+      <br>
+      <br>
+      <a style="font-size: 30px; font-family: 'Courier New', Courier, monospace;" href="#" class="project-card" target="_blank">Project 2</a>
+    </div>
+  </section>
+
+     <!-- CONTACT SECTION -->
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Have a project in mind? Let's talk!</p>
+
+        
+
+        <form action="#" method="POST">
+
+            <label style="font-size: 30px; font-family: 'Courier New', Courier, monospace;" for="name">Your Name</label>
+
+            <input type="text" id="name" name="name"  placeholder="Enter your name" required>
+
+            
+
+            <label  style="font-size: 30px; font-family: 'Courier New', Courier, monospace;" for="email">Your Email</label>
+
+            <input type="email" id="email" name="email"  placeholder="Enter your email" required>
+            <label  style="font-size: 30px; font-family: 'Courier New', Courier, monospace;" for="subject">Subject</label>
+
+            <select id="subject" name="subject">
+
+                <option value="">-- Select a topic --</option>
+
+                <option value="hire">I want to hire you</option>
+
+                <option value="collab">I want to collaborate</option>
+
+                <option value="other">Other</option>
+
+            </select>
+
+            <br><br>
+
+            <label  style="font-size: 30px; font-family: 'Courier New', Courier, monospace;"  for="message">Message</label>
+
+            <textarea id="message" name="message" rows="5"  placeholder="Tell me about your project..."
+                required></textarea> 
+
+            
+
+            <button type="submit">Send Message 🚀</button>
+
+        </form>
+
+    </section>
+
+ 
+    <!-- FOOTER -->
+
+    <footer 
+        <p>&copy; 2026 Shreya S M. All rights reserved.</p>
+
+    </footer>
+</body>
+</html>
